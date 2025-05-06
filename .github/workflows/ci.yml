@@ -1,11 +1,6 @@
 name: White Box Testing
 on:
     workflow_dispatch:
-        
-    push:
-        branches: [main]
-    pull_request:
-        branches: [main]
 jobs:
     white-box-test:
         runs-on: ubuntu-latest
